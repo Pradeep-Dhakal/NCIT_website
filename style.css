@@ -1,0 +1,264 @@
+/* footer  */
+.tm-footer{
+	background: #211f17;
+   display: block;
+   padding: 20px;
+   position: relative;
+
+}
+
+.tm-us{
+   display: inline-table;
+   max-width: 30%;
+   width: 30%;
+   margin: 2% 0 2% 4%
+}
+
+.tm-address{
+   display: inline-table;
+   max-width: 30%;
+   width: 30%;
+	margin: 2% 0 2% 25%
+}
+
+.tm-us .bold, .tm-address .bold{
+   color: #ec3c6a;
+   font-size: 1.5vw;
+   font-weight: 700;
+   padding-bottom: 4%;
+}
+
+.tm-us p, .tm-address p{
+   color: #fff;
+   font-size: 1.2vw;
+}
+
+.tm-media{
+  display: inline;
+   margin: 0 0 0 59%;
+
+
+}
+.tm-media img{
+ margin: 0.5%;
+   width: 3%;
+   height: auto;
+   
+}
+
+.tm-up
+{
+   position: absolute;
+   top: 20%;
+   right: 3%;
+   width: 3%;
+   height: auto;
+   
+}
+
+.tm-review:focus{
+   outline: none;
+}
+
+.tm-revcon:focus{
+   outline: none;
+}
+.footer_bottom{
+   background: #222222;
+   padding: 15px 0;
+   position: relative;
+}
+.footer_bottom p{
+   margin: 0;
+   font-size: 11px;
+   color: #f2f0f0;
+   line-height: 20px;
+   text-transform: uppercase;
+}
+.footer_menu ul{
+   margin: 0;
+   text-align: right;
+}
+
+.footer_menu ul li:last-child{
+   border-right: 0px;
+}
+.footer_menu ul li{
+   display: inline-block;
+   border-right: 1px solid #f2f0f0;
+   line-height: 10px;
+}
+.footer_menu ul li a{
+   display: block;
+   text-transform: uppercase;
+   color: #f2f0f0;
+   font-size: 11px;
+   margin: 0 15px;
+}
+.footer_menu ul li a:hover,.main_header ul.nav.navbar-nav li > a:hover{
+   color: #fb6d93;
+}
+
+.back_nav{
+   background: rgba(251, 109, 147, .95);
+   overflow: hidden;
+}
+.back_nav h2{
+   font-size: 18px;
+   margin: 0 0 0 15px;
+   color: #fff;
+   text-transform: uppercase;
+   line-height: 39px;
+   letter-spacing: 1px;
+}
+.back_nav ul{
+   margin: 0 15px 0 0;
+}
+.back_nav ul li{
+   display: inline-block;
+   font-family: 'Playfair Display';
+   color: #fff;
+   text-transform: uppercase;
+   line-height: 39px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   margin: 0 19px;
+}
+.back_nav ul li a{
+   display: block;
+   color: #fff;
+   position: relative;
+}
+.back_nav ul li a:hover{
+   color: #000;
+}
+.back_nav ul li a:after {
+ content: "/";
+ position: absolute;
+ right: -17px;
+ top: 1px;
+   color: #fff;
+}
+
+
+.container{
+    clear:both;
+    overflow:auto;
+  }
+  
+  nav{float:right;}
+  
+  .logo img{float:left;}
+  
+  ul li{
+    display: inline-block; padding:10px;
+    font-size:20px; font-family:raleway;
+  }
+  
+  ul li:hover{
+    color:orange;
+    
+  }
+
+
+
+  /*  sliders  */
+
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshow-container{
+    padding-top: 10px;
+}
